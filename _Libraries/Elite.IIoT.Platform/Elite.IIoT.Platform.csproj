@@ -1,0 +1,124 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Version>8.0.1</Version>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<LangVersion>preview</LangVersion>
+		<NoWarn>1701;1702;1705;1591</NoWarn>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Figgle" Version="0.5.1" />
+		<PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+		<PackageReference Include="Meziantou.Analyzer" Version="2.0.120">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.Systemd" Version="8.0.0" />
+		<PackageReference Include="MQTTnet.AspNetCore" Version="4.3.3.952" />
+		<PackageReference Include="Serilog.Extensions.Hosting" Version="8.0.0" />
+		<PackageReference Include="Serilog.Extensions.Logging" Version="8.0.0" />
+		<PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="5.0.1" />
+		<PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+		<PackageReference Include="SoapCore" Version="1.1.0.39" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Elite.IIoT.Core\Elite.IIoT.Core.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Figgle" />
+		<Using Include="FluentValidation.Results" />
+		<Using Include="MQTTnet" />
+		<Using Include="MQTTnet.AspNetCore" />
+		<Using Include="MQTTnet.Protocol" />
+		<Using Include="MQTTnet.Server" />
+		<Using Include="Newtonsoft.Json" />
+		<Using Include="Serilog" />
+		<Using Include="Serilog.Events" />
+		<Using Include="SoapCore" />
+		<Using Include="Volo.Abp" />
+		<Using Include="Volo.Abp.DependencyInjection" />
+		<Using Include="Volo.Abp.Modularity" />
+		<Using Include="Volo.Abp.Modularity.PlugIns" />
+		<Using Include="Volo.Abp.Threading" />
+		<Using Include="YamlDotNet.RepresentationModel" />
+		<Using Include="YamlDotNet.Serialization" />
+		<Using Include="YamlDotNet.Serialization.NamingConventions" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Microsoft.AspNetCore.Authentication" />
+		<Using Include="Microsoft.AspNetCore.Authentication.Cookies" />
+		<Using Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+		<Using Include="Microsoft.AspNetCore.Authorization" />
+		<Using Include="Microsoft.AspNetCore.Builder" />
+		<Using Include="Microsoft.AspNetCore.Hosting" />
+		<Using Include="Microsoft.AspNetCore.Hosting.StaticWebAssets" />
+		<Using Include="Microsoft.AspNetCore.Http" />
+		<Using Include="Microsoft.AspNetCore.Identity" />
+		<Using Include="Microsoft.AspNetCore.Mvc" />
+		<Using Include="Microsoft.AspNetCore.Mvc.ApplicationModels" />
+		<Using Include="Microsoft.AspNetCore.Mvc.Filters" />
+		<Using Include="Microsoft.AspNetCore.RateLimiting" />
+		<Using Include="Microsoft.AspNetCore.Routing" />
+		<Using Include="Microsoft.Extensions.Configuration" />
+		<Using Include="Microsoft.Extensions.DependencyInjection" />
+		<Using Include="Microsoft.Extensions.Hosting" />
+		<Using Include="Microsoft.Extensions.Localization" />
+		<Using Include="Microsoft.Extensions.Logging" />
+		<Using Include="Microsoft.Extensions.Options" />
+		<Using Include="Microsoft.IdentityModel.Tokens" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="System.Diagnostics" />
+		<Using Include="System.Globalization" />
+		<Using Include="System.IdentityModel.Tokens.Jwt" />
+		<Using Include="System.Net" />
+		<Using Include="System.Net.Mime" />
+		<Using Include="System.Net.NetworkInformation" />
+		<Using Include="System.Net.Sockets" />
+		<Using Include="System.Reflection" />
+		<Using Include="System.Runtime.CompilerServices" />
+		<Using Include="System.Runtime.InteropServices" />
+		<Using Include="System.Security.Claims" />
+		<Using Include="System.Security.Cryptography.X509Certificates" />
+		<Using Include="System.ServiceModel" />
+		<Using Include="System.Text" />
+		<Using Include="System.Text.Encodings.Web" />
+		<Using Include="System.Text.Json.Nodes" />
+		<Using Include="System.Threading.RateLimiting" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Elite.IIoT.Core" />
+		<Using Include="Elite.IIoT.Core.Architects.Configures" />
+		<Using Include="Elite.IIoT.Core.Architects.Elementors" />
+		<Using Include="Elite.IIoT.Core.Architects.Repositories" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Elite.IIoT.Platform.Facilities.Elementors" />
+		<Using Include="Elite.IIoT.Platform.Facilities.Foundations" />
+		<Using Include="Elite.IIoT.Platform.Facilities.Repositories" />
+		<Using Include="Elite.IIoT.Platform.Services.Elementors" />
+		<Using Include="Elite.IIoT.Platform.Services.Foundations" />
+		<Using Include="Elite.IIoT.Platform.Services.Repositories" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,27 @@
+# mac
+.DS_Store
+._.vs
+._.github
+._.vscode
+._.gitignore
+
+# windows
+.vs
+.github
+.vscode
+.dockerignore
+*.user
+*.yml
+*.log
+*.bkp
+
+f
+bin
+obj
+Logs
+Bottom
+Debug
+Release
+Rejected
+BuildFile
+Dockerfile

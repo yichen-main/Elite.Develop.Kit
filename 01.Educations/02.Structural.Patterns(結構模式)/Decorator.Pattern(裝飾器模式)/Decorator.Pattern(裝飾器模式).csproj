@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<RootNamespace>Decorator.Pattern_裝飾器模式_</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+		<PackageReference Include="Volo.Abp.Autofac" Version="7.4.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Volo.Abp" />
+		<Using Include="Volo.Abp.Autofac" />
+		<Using Include="Volo.Abp.DependencyInjection" />
+		<Using Include="Volo.Abp.Modularity" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Microsoft.Extensions.DependencyInjection" />
+		<Using Include="Microsoft.Extensions.Hosting" />
+		<Using Include="Microsoft.Extensions.Logging" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Using Include="Decorator.Pattern_裝飾器模式_" />
+		<Using Include="Decorator.Pattern_裝飾器模式_.Repositories" />
+	</ItemGroup>
+	
+</Project>

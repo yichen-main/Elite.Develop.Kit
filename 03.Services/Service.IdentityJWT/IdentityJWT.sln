@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.BearerToken", "Service.BearerToken\Service.BearerToken.csproj", "{FDE4A303-0093-49AD-9E08-514A85A20A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Cookie", "Service.Cookie\Service.Cookie.csproj", "{B0A4AAED-098D-4B8B-81B2-82A19368D1FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDE4A303-0093-49AD-9E08-514A85A20A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE4A303-0093-49AD-9E08-514A85A20A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE4A303-0093-49AD-9E08-514A85A20A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE4A303-0093-49AD-9E08-514A85A20A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A4AAED-098D-4B8B-81B2-82A19368D1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A4AAED-098D-4B8B-81B2-82A19368D1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A4AAED-098D-4B8B-81B2-82A19368D1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A4AAED-098D-4B8B-81B2-82A19368D1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91AF5A4C-D340-416D-A200-D517D5B96F6D}
+	EndGlobalSection
+EndGlobal

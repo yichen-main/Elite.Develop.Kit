@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder.Pattern(建造者模式)", "Builder.Pattern(建造者模式)\Builder.Pattern(建造者模式).csproj", "{B4E86FF3-DED8-448E-83CB-04870C6ECADA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4E86FF3-DED8-448E-83CB-04870C6ECADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E86FF3-DED8-448E-83CB-04870C6ECADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E86FF3-DED8-448E-83CB-04870C6ECADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E86FF3-DED8-448E-83CB-04870C6ECADA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1BDA80B-76BA-4EE6-A5BE-3C112EC276C0}
+	EndGlobalSection
+EndGlobal

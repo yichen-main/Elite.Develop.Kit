@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.MediatR_Balzor", "Service.MediatR_Balzor\Service.MediatR_Balzor.csproj", "{5F96F8FA-8815-47B9-B4B7-C41B6A3A718F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Consumer", "Demo.Consumer\Demo.Consumer.csproj", "{9F0BFEFB-B9EC-4941-8C9A-F5641BEEEC6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F96F8FA-8815-47B9-B4B7-C41B6A3A718F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F96F8FA-8815-47B9-B4B7-C41B6A3A718F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F96F8FA-8815-47B9-B4B7-C41B6A3A718F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F96F8FA-8815-47B9-B4B7-C41B6A3A718F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F0BFEFB-B9EC-4941-8C9A-F5641BEEEC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0BFEFB-B9EC-4941-8C9A-F5641BEEEC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0BFEFB-B9EC-4941-8C9A-F5641BEEEC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0BFEFB-B9EC-4941-8C9A-F5641BEEEC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39A5FAAA-260F-4F78-8F73-D47252EF7355}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>preview</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MediatR" Version="12.1.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="MediatR" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Demo.Consumer.Commands" />
+		<Using Include="Demo.Consumer.Models" />
+		<Using Include="Demo.Consumer.Queries" />
+	</ItemGroup>
+
+</Project>
